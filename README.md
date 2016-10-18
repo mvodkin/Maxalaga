@@ -10,7 +10,7 @@ Maxalaga is an 80's style shooter. Players pilot a space fighter and shoot at sw
 - [ ] When an enemy's projectile hits the player's ship the player loses a life.
 - [ ] The game keeps score by counting the number of enemies the player is able to eliminate before losing all their lives.
 
-<h1>Wireframes<h1>
+<h1>Wireframes</h1>
 
 The game mode will look something like this, but with a link to my portfolio site and github in the upper right corner.
 
