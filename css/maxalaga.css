@@ -1,6 +1,10 @@
 #stage {
-  /*background-color: black;*/
+  border: 15px solid #f787c7;
+  border-style: groove;
+
+}
+
+main {
   width: 700px;
   margin: 0 auto;
-
 }
