@@ -1,5 +1,6 @@
 const Ship = require("./lib/ship.js");
 const Background = require("./lib/background.js");
+const EnemyFighter = require("./lib/enemy.js");
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -7,9 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const stage = new createjs.Stage("stage");
   const ship = new Ship(stage);
   const background = new Background(stage);
+  const enemy = new EnemyFighter({stage})
 
 
-  stage.canvas.imageSmoothing = false;
+  stage.canvas.imageSmoothingEnabled = false;
 
 
 
@@ -21,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener("keyup", (e) => {
     ship.setDirection(e.key, false)
   });
-
 
   createjs.Ticker.timingMode = createjs.Ticker.RAF;
   createjs.Ticker.addEventListener("tick", tick);
