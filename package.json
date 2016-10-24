@@ -1,0 +1,30 @@
+{
+  "name": "maxalaga",
+  "version": "1.0.0",
+  "description": "<h1>Maxalaga (Galaga clone)</h1>",
+  "main": "maxalaga.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/webpack",
+    "webpack": "./node_modules/.bin/webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvodkin/Maxalaga.git"
+  },
+  "author": "mvodkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvodkin/Maxalaga/issues"
+  },
+  "homepage": "https://github.com/mvodkin/Maxalaga#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "webpack": "^1.13.2"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
