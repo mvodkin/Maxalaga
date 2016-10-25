@@ -5,8 +5,5 @@ const Game = require("./lib/game.js");
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  const game = new Game;
-
-  const score = document.getElementById("score")
-  score.textContent = game.score;
+  currentGame = new Game;
 });
