@@ -5,9 +5,18 @@
 
 body {
   background: black;
+  background-image: url("../assets/16420663745_164fbb8be2_b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
   width: 700px;
   margin: 0 auto;
+}
+
+.score, .score > p {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
 }
