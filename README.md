@@ -16,3 +16,7 @@ Elimininate as many enemies as you can until you are overwhelmed.
 To start the game click the start button.
 
 <img src="assets/start-menu.png"></img>
+
+The final score is displayed on game over.
+
+<img src="assets/game-over.png"></img>
