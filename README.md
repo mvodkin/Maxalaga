@@ -7,4 +7,4 @@
 - [ ] Use the cursor keys to move the ship up, down, left and right.
 - [ ] Use the spacebar bar to shoot.
 
-![assets/Feb-13-2017 18-12-06.gif]()
+<img src="assets/Feb-13-2017 18-12-06.gif"></img>
